@@ -1,6 +1,7 @@
 -- CREATE DATABASE dbusuarios;
 
 CREATE TABLE usuario(
+    codigo INT NOT NULL AUTO_INCREMENT,
     nome VARCHAR(150),
     email VARCHAR(150),
     senha VARCHAR(50),
